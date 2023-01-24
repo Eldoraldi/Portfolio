@@ -1,0 +1,512 @@
+/* Author : Midhun Roy 
+Time : 12:15 pm*/
+
+* {
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	border-top: solid 5px #b43a3a;
+}
+
+.parent-container {
+	background-color: #f1ecec;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.container {
+	margin-left: 5%;
+	margin-right: 10%;
+	min-width: 80%;
+	margin-top: 2%;
+	display: flex;
+}
+
+.header {
+	padding: 2%;
+	width: 330px;
+}
+
+.mypic {
+	border-radius: 200px;
+	padding: 0;
+	width: 100%;
+	box-shadow: 0px 0px 20px 4px #c6886b;
+}
+
+.aside {
+	margin-left: 8%;
+	width: 60%;
+}
+
+.aside > h2 {
+	color: red;
+}
+.grey {
+	font-size: small;
+	color: #9fa1a3;
+}
+.grey-big {
+	color: #9fa1a3;
+	font-size: larger;
+}
+.info {
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+.birth {
+	width: 25%;
+}
+.nation {
+	width: 25%;
+}
+.lang {
+	width: 40%;
+}
+
+.socialmedia {
+	margin-top: 5%;
+	width: 20%;
+	height: 5%;
+	display: flex;
+	justify-content: space-between;
+	gap: 5%;
+}
+.fb {
+	width: 50%;
+}
+.tr {
+	width: 50%;
+}
+.li {
+	width: 50%;
+}
+.ig {
+	width: 50%;
+}
+.logo-width {
+	width: 50%;
+}
+.containersub-2 {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	width: 80%;
+	font-size: small;
+	height: 200px;
+}
+
+.col1-row1 {
+	text-align: end;
+	margin-left: 11%;
+	width: 15%;
+}
+
+.col2-row1 {
+	margin-left: 10%;
+	width: 15%;
+}
+.col3-row1 {
+	width: 15%;
+}
+.col4-row1 {
+	margin-left: 2%;
+	width: 15%;
+}
+.co15-row1 {
+	margin-left: 1%;
+	width: 15%;
+}
+
+.containersub-4 {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	width: 80%;
+	font-size: small;
+	height: 200px;
+}
+
+.col1-row3 {
+	text-align: end;
+	margin-left: 11%;
+	width: 15%;
+}
+
+.col2-row3 {
+	position: relative;
+	margin-left: 10%;
+	width: 30%;
+}
+
+.col3-row3 {
+	position: relative;
+	margin-left: 2%;
+	width: 30%;
+}
+
+.html {
+	width: 62%;
+	height: 30px;
+	border-bottom: solid 5px #f17a0a;
+}
+.css {
+	width: 75%;
+	height: 30px;
+	border-bottom: solid 5px #f17a0a;
+}
+
+.psdiv {
+	width: 40%;
+	height: 30px;
+	border-bottom: solid 5px #f17a0a;
+}
+
+.php {
+	width: 60%;
+	height: 30px;
+	border-bottom: solid 5px #f17a0a;
+}
+.c {
+	width: 55%;
+	height: 30px;
+	border-bottom: solid 5px #f17a0a;
+}
+
+.htmlper {
+	top: 18%;
+	left: 62%;
+	position: absolute;
+	padding: 2px;
+	color: white;
+	background-color: black;
+	width: 30px;
+}
+
+.cssper {
+	top: 40%;
+	left: 75%;
+	position: absolute;
+	padding: 2px;
+	color: white;
+	background-color: black;
+	width: 30px;
+}
+
+.phpper {
+	top: 63%;
+	left: 60%;
+	position: absolute;
+	padding: 2px;
+	color: white;
+	background-color: black;
+	width: 30px;
+}
+
+.cper {
+	top: 85%;
+	left: 55%;
+	position: absolute;
+	padding: 2px;
+	color: white;
+	background-color: black;
+	width: 30px;
+}
+
+.psper {
+	top: 18%;
+	left: 40%;
+	position: absolute;
+	padding: 2px;
+	color: white;
+	background-color: black;
+	width: 30px;
+}
+
+.irper {
+	top: 40%;
+	left: 62%;
+	position: absolute;
+	padding: 2px;
+	color: white;
+	background-color: black;
+	width: 30px;
+}
+
+.skper {
+	top: 63%;
+	left: 55%;
+	position: absolute;
+	padding: 2px;
+	color: white;
+	background-color: black;
+	width: 30px;
+}
+
+.woper {
+	top: 40%;
+	left: 60%;
+	position: absolute;
+	padding: 2px;
+	color: white;
+	background-color: black;
+	width: 30px;
+}
+
+.containersub-5 {
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	width: 80%;
+	font-size: small;
+	height: 200px;
+}
+
+.col1-row4 {
+	text-align: end;
+	margin-left: 11%;
+	width: 15%;
+}
+
+.col2-row4 {
+	position: relative;
+	margin-left: 10%;
+	width: 30%;
+}
+
+.col3-row4 {
+	position: relative;
+	margin-left: 2%;
+	width: 30%;
+}
+
+.containersub-6 {
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	width: 80%;
+	font-size: small;
+	height: 200px;
+}
+
+.col1-row5 {
+	text-align: end;
+	margin-left: 11%;
+	width: 15%;
+}
+
+.col2-row5 {
+	position: relative;
+	margin-left: 10%;
+	width: 30%;
+}
+
+.containersub-7 {
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	width: 80%;
+	font-size: small;
+	height: 200px;
+}
+
+.col1-row6 {
+	text-align: end;
+	margin-left: 11%;
+	width: 15%;
+}
+
+.col2-row6 {
+	position: relative;
+	margin-left: 10%;
+	width: 30%;
+}
+.col3-row6 {
+	position: relative;
+	margin-left: 2%;
+	width: 30%;
+}
+
+.mlogo-width {
+	width: 8%;
+}
+
+.containersub-8 {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	width: 80%;
+	font-size: small;
+}
+
+.col1-row7 {
+	text-align: end;
+	margin-left: 11%;
+	width: 15%;
+}
+
+.col2-row7 {
+	position: relative;
+	margin-left: 10%;
+	width: 20%;
+}
+.col3-row7 {
+	position: relative;
+	margin-left: 1%;
+	width: 20%;
+}
+
+.col4-row7 {
+	position: relative;
+	margin-left: 1%;
+	width: 20%;
+}
+.portfolio-width {
+	width: 90%;
+	height: 45%;
+}
+
+/* .containersub-8 img:hover {
+	position: absolute;
+	width: 100%;
+	height: 50%;
+} */
+
+.containersub-9 {
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	width: 80%;
+	font-size: small;
+}
+
+.col1-row8 {
+	text-align: end;
+	margin-left: 11%;
+	width: 15%;
+}
+
+.col2-row8 {
+	position: relative;
+	margin-left: 10%;
+	width: 30%;
+}
+
+.col3-row8 {
+	position: relative;
+	margin-left: 2%;
+	width: 30%;
+}
+
+.review {
+	width: 60%;
+	height: 50px;
+	display: flex;
+}
+
+.review-name-rat {
+	width: 70%;
+}
+.review-pic {
+	width: 30%;
+}
+.rating-img-width {
+	width: 50%;
+}
+.review-img-width {
+	width: 100%;
+	height: 100%;
+}
+
+.containersub-10 {
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	width: 80%;
+	font-size: small;
+}
+
+.col1-row9 {
+	text-align: end;
+	margin-left: 11%;
+	width: 15%;
+}
+
+.col2-row9 {
+	margin-left: 10%;
+	width: 15%;
+}
+.col3-row9 {
+	margin-left: 1%;
+	width: 15%;
+}
+.col4-row9 {
+	margin-left: 2%;
+	width: 15%;
+}
+.co15-row9 {
+	margin-left: 1%;
+	width: 15%;
+}
+.red {
+	color: #f00;
+}
+.containersub-11 {
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	width: 80%;
+	font-size: small;
+}
+
+.col1-row10 {
+	margin-left: 36%;
+	width: 15%;
+}
+
+.containersub-12 {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	font-size: small;
+}
+
+.submit {
+	background-color: #f00;
+	color: #fff;
+	height: 50px;
+	width: 100px;
+	margin-top: 1%;
+	margin-left: 39%;
+}
+
+.input {
+	background-color: #f3f4f4;
+	height: 50px;
+	width: 65%;
+	margin-top: 1%;
+	margin-left: 36%;
+}
+
+footer {
+	text-align: end;
+	padding: 2%;
+}
+
+.input_mess {
+	background-color: #f3f4f4;
+	height: 200px;
+	width: 65%;
+	margin-top: 1%;
+	margin-left: 36%;
+}
